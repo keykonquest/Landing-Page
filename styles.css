@@ -1,6 +1,163 @@
-* {
+body {
+    padding: 0px;
+    align-items: center;
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    
 }
 
+.header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10em;
+    padding: 0 10px;
+    text-decoration: none;
+    position: fixed;
+    top: 0;
+    z-index: 9;
+    background: white;
+}
+
+
+.links {
+    position: relative;
+    width: 20em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2.6vw;
+}
+
+.head-row {
+    /* width: 85%; */
+    height: 100%;
+    /* border-radius: 1.5em; */
+    margin: 0 auto 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(32, 118, 231); 
+    padding: 150px 0;
+    /* box-shadow: 0 0 2em rgb(69 69 69); */
+}
+
+.sign-up-row {
+    flex-wrap: wrap;
+}
+
+.head-img {
+    float: right;
+}
+
+.row-one{
+    height: 100%;
+    /* border-radius: 1.5em; */
+    margin: 10px auto 0 auto;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    display: block;
+    align-items: center;
+    /* background-color: rgba(0, 0, 0, 0.7); */
+    /* box-shadow: 0 0 2em rgb(69 69 69); */
+
+} 
+
+.row-one h3 {
+   text-align: center;
+   margin: 40px auto 60px auto;
+}
+
+.info-container {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 15% 0 14%;
+    flex-wrap: wrap;
+}
+
+.info-element {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+.info-element p {
+    width: 50%;
+    flex-wrap: wrap;
+}
+.block {
+    border-width: 1px;
+}
+
+.row-two {
+    height: 100%;
+    display: block;
+    background: rgb(82, 92, 94);
+}
+
+.quote-bg {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(82, 92, 94);
+}
+
+.quote {
+    margin: 1em auto;
+    text-align: center;
+    width: 50%;
+    padding: 20px;
+    background: rgb(45, 215, 200);
+    border-radius: .5em;
+}
+
+.wiseman {
+    text-align: right;
+}
+
+.row-three {
+    padding: 3.5em 0;
+    display: flex;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+}
+
+.call2action {
+    width: 60em;
+    background: cornflowerblue;
+    padding: 2em 0;
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 1em;
+}
+
+.textcolumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    line-height: 1em;
+    padding: 0 2em 0 0;
+}
+
+.action-phrase {
+    font-size: 1.5rem;
+}
+
+.action-text {
+    margin-top: 5px;
+}
+
+.action-btn {
+    background-color: white;
+}
